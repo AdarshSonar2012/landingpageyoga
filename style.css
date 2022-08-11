@@ -1,0 +1,164 @@
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul {
+  display: inline-block;
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: #555;
+}
+p {
+  color: #555;
+}
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.col-2 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+.col-2 img {
+  max-width: 100%;
+  padding: 50px 0;
+}
+.col-2 h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px;
+}
+.col-2 p {
+  margin-left: 25px;
+}
+.col-2 a {
+  margin-left: 25px;
+}
+.btn {
+  display: inline-block;
+  background: #ffc13b;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+.header {
+  background: radial-gradient(#fff, #ffd6d6);
+  height: 745px;
+}
+header .row {
+  margin-top: 70px;
+}
+.btn:hover {
+  background: #563434;
+}
+.categories {
+  margin: 70px 0;
+}
+.col-3 {
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+.col-3 img {
+  width: 100%;
+}
+.smallcontainer {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.col-3 img:hover {
+  transition: 0.3s;
+  width: 102%;
+  height: 315px;
+}
+.row1 {
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.footer {
+  background: #000;
+  color: #8a8a8a;
+  font-size: 14px;
+  padding: 60px 0 20px;
+}
+.footer p {
+  color: #8a8a8a;
+}
+.footer h3 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footercol1,
+.footercol2,
+.footercol3,
+.footercol4 {
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+.footercol1 {
+  flex-basis: 30%;
+}
+.footercol2 {
+  flex: 1;
+  text-align: center;
+}
+.footercol2 img {
+  width: 180px;
+  margin-bottom: 20px;
+}
+.footercol3,
+.footercol4 {
+  flex-basis: 12%;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+.app-logo {
+  margin-top: 20px;
+}
+.app-logo img {
+  width: 140px;
+}
+.footercol3 a {
+  color: #8a8a8a;
+}
+.footercol4 a {
+  color: #8a8a8a;
+}
